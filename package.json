@@ -4,11 +4,14 @@
   "description": "firt app",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "watch": "node --watch index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1"
   }
 }
